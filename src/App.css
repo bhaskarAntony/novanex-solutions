@@ -1,9 +1,9 @@
 :root{
-  --primary-color:#ff3131;
+  --primary-color:#ff654d;
 }
 
 .text-main{
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 .main-btn{
   border: none;
