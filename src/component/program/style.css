@@ -1,0 +1,23 @@
+.program{
+    background: #000;
+}
+.program-card .icon{
+    min-width: 50px;
+    min-height: 50px;
+    display: flex;
+    background-color: var(--primary-color);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.program-card{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #ffffff, #fff);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}

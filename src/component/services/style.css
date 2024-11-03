@@ -1,0 +1,22 @@
+.service-card{
+    line-height: 1.5;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.service-card:hover{
+    border:2px solid  var(--primary-color);
+}
+.service-icon{
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}

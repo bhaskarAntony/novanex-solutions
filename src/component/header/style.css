@@ -1,0 +1,27 @@
+header{
+    position: sticky;
+    top: 0 !important;
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+header{
+    padding: 10px;
+}
+
+header .nav-link{
+    color: #020202 !important;
+    font-size: 1.1rem;
+}
+.logo{
+    width: 200px;
+}
+header .dropdown-item{
+    padding: 10px;
+}
+header .dropdown-item:hover{
+    background-color: #ff3131 !important;
+    color: #fff !important;
+}
+header .nav-link:hover{
+    color: #ff3131 !important;
+}
