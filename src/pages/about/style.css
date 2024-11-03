@@ -1,0 +1,9 @@
+.about-hero{
+    background: linear-gradient(#d8d8d865, #ffffff), url('https://img.freepik.com/free-photo/group-diverse-business-people_53876-20967.jpg?t=st=1730640202~exp=1730643802~hmac=daa32b655d6d3c8fdc5135f81f2884c5618d70073073b092246145ba2e4c28a0&w=1060') no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+}
+.about .j{
+    text-align: justify;
+    line-height: 1.6;
+}

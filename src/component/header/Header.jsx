@@ -10,55 +10,26 @@ function Header() {
    <header>
      <Navbar expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={logo} alt="logo" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <NavDropdown title="About" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Our Mision</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                 Our Vision
-              </NavDropdown.Item>
-              
-            </NavDropdown>
-
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/aboutus">About us</Nav.Link>
             <NavDropdown title="Our Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Digital Transformation</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-              Application Development (Mobile, Web, Cloud)
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Enterprise Software Solutions</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-              Data Analytics and BI
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action/3.4">
-              Artificial Intelligence and Machine Learning
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action/3.4">
-              Cybersecurity
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action/3.4">
-              Cloud Computing (AWS, Azure, Google Cloud)
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action/3.4">
-              IT Consulting
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action/3.4">
-              DevOps  
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action/3.4">
-              Quality Assurance and Testing
-              </NavDropdown.Item>
-            </NavDropdown>
+    <NavDropdown.Item href="/services/digital-transformation">Digital Transformation</NavDropdown.Item>
+    <NavDropdown.Item href="/services/application-development">Application Development (Mobile, Web, Cloud)</NavDropdown.Item>
+    <NavDropdown.Item href="/services/enterprise-software-solutions">Enterprise Software Solutions</NavDropdown.Item>
+    <NavDropdown.Item href="/services/data-analytics-bi">Data Analytics and BI</NavDropdown.Item>
+    <NavDropdown.Item href="/services/artificial-intelligence-machine-learning">Artificial Intelligence and Machine Learning</NavDropdown.Item>
+    <NavDropdown.Item href="/services/cybersecurity">Cybersecurity</NavDropdown.Item>
+    <NavDropdown.Item href="/services/cloud-computing">Cloud Computing (AWS, Azure, Google Cloud)</NavDropdown.Item>
+    <NavDropdown.Item href="/services/it-consulting">IT Consulting</NavDropdown.Item>
+    <NavDropdown.Item href="/services/devops">DevOps</NavDropdown.Item>
+    <NavDropdown.Item href="/services/quality-assurance-testing">Quality Assurance and Testing</NavDropdown.Item>
+</NavDropdown>
 
             <Nav.Link href="#home">Contact us</Nav.Link>
           </Nav>
