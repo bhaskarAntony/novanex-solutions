@@ -34,7 +34,7 @@ function Program({ click }) {
                             Join us to explore advanced technologies that will elevate your career and business capabilities.
                         </p>
                         <br />
-                        <Link className="main-btn p-3 px-5 fw-bold mt-3 text-main" onClick={click}>Know More <i class="bi bi-arrow-right"></i></Link>
+                        <Link className="main-btn p-3 px-5 fw-bold mt-3" onClick={click}>Know More <i class="bi bi-arrow-right"></i></Link>
                     </div>
                     
                 </div>
