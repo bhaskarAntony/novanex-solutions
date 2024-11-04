@@ -1,0 +1,8 @@
+.contact{
+    background: linear-gradient(#00000044, #000), url(https://img.freepik.com/free-photo/girl-having-online-class-her-tablet_23-2148597998.jpg?t=st=1730730874~exp=1730734474~hmac=acf2a9674a446dd5d93577e33dfef0e38239ce71bd397f907edef66f0a5d2c50&w=900) no-repeat center;
+    min-height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

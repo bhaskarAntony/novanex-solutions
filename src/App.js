@@ -15,6 +15,7 @@ import ITConsulting from './pages/services/ITConsulting'
 import DevOps from './pages/services/DevOps'
 import QualityAssurance from './pages/services/QualityAssurance'
 import About from './pages/about/About'
+import Contact from './component/contact/Contact'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <Route path='/services/devops ' element={<DevOps/>}/>
     <Route path='/services/quality-assurance-testing' element={<QualityAssurance/>}/>
     <Route path='/aboutus' element={<About/>}/>
+    <Route path='/contact-us' element={<Contact/>}/>
    </Routes>
    <Footer/>
     </BrowserRouter>

@@ -35,6 +35,18 @@ function About() {
           content: "We foster a culture of growth and improvement, encouraging our team to continuously learn and adapt to the ever-evolving tech landscape."
         }
       ];
+      const testimonials = [
+        {
+            content:`
+            Apexion Global Solutions embodies innovation and excellence. Our team's dedication to delivering cutting-edge technology solutions has propelled us to the forefront of the industry.`,
+            by:'Murali Gangappa, CEO, Apexion Global Solutions'
+        },
+        {
+            content:`
+            Apexion Global Solutions is driven by a passion for innovation and excellence. Our team's expertise and dedication enable us to deliver exceptional IT solutions.`,
+            by:'Sanjay V, Managing Director, Apexion Global Solutions'
+        }
+      ]
       
   return (
    <section className="about">
@@ -169,6 +181,23 @@ function About() {
                 ))
             }
         </div>
+      </div>
+      <div className="container-fluid p-3 p-md-5">
+      <div className="row">
+        {
+            testimonials.map((item, index)=>(
+                <div className="col-md-6">
+                    <div className="service-card testimonial bg-light p-3 h-100 d-flex flex-column justify-content-between">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="" className='mb-4' />
+                        <p className="fs-6"><q>
+                        {item.content}
+                        </q></p>
+                        <blockquote><small className='text-main'>-{item.by}</small></blockquote>
+                    </div>
+                </div>
+            ))
+        }
+      </div>
       </div>
    </section>
   )
