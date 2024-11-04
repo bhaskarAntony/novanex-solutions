@@ -31,7 +31,7 @@ function Header() {
     <NavDropdown.Item href="/services/quality-assurance-testing">Quality Assurance and Testing</NavDropdown.Item>
 </NavDropdown>
 
-            <Nav.Link href="#home">Contact us</Nav.Link>
+            <Nav.Link href="/contact-us">Contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
