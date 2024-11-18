@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog with Backdrop</title>
+    <style>
+        /* * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        } */
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        dialog::backdrop {
+            background-color: rgba(24, 24, 24, 0.5);
+        }
+        dialog {
+            width: 250px;
+            min-height: 200px;
+            padding: 20px;
+            line-height: 1.5;
+            border: none;
+            box-shadow: 0px 0px 10px #ccc;
+            text-align: center;
+            border-radius: 8px;
+        }
+        dialog img {
+            width: 100px;
+        }
+        dialog button {
+            width: 100%;
+            margin-top: 10px;
+            border: none;
+            padding: 10px;
+            background-color: #77b43e;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="showPopup()">Open Dialog</button>
+
+    <dialog id="popup1">
+        <img src="https://i.pinimg.com/originals/6d/1d/a8/6d1da812e9c795eb5b2f4e8807d87014.gif" alt="Success Image">
+        <h5>Successful!</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button onclick="closePopup()">Close</button>
+    </dialog>
+
+    <script>
+        const dialog = document.getElementById('popup1');
+
+        function showPopup() {
+            dialog.showModal();
+        }
+
+        function closePopup() {
+            dialog.close();
+        }
+    </script>
+</body>
+</html>

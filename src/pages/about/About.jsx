@@ -55,7 +55,7 @@ function About() {
         <span className="text-main">Empowering</span> <br /> Innovation
         </h1>
         <p className="fs-4 text-secondary">
-        Discover the story behind Highbrow Technology and our <br /> commitment to excellence.
+        Discover the story behind Apexion Global Solutions and our <br /> commitment to excellence.
         </p>
     </div>
     <h1 className="my-4 text-center fs-1 fw-bold">
@@ -65,13 +65,13 @@ function About() {
         <div className="row">
             <div className="col-md-6">
                 <p className="fs-5 j">
-                Apexion Global Solutions is a trusted leader in technology and consulting, dedicated to empowering businesses to thrive in today’s fast-evolving digital world. With over a decade of expertise, we specialize in delivering end-to-end solutions that combine innovation, security, and efficiency. From Digital Transformation strategies that future-proof organizations, to Application Development for mobile, web, and cloud platforms, we ensure our clients stay at the forefront of technology.
+               At, Apexion Global Solutions, we're a team of innovators, technologists, and problem-solvers, passionate about empowering businesses to thrive in the digital age.
                 </p>
                 <p className="fs-5  j">
-                Our comprehensive services span Enterprise Software Solutions to optimize internal workflows, Data Analytics and Business Intelligence to leverage insights for growth, and Artificial Intelligence and Machine Learning to unlock new possibilities through automation and predictive analytics. In a world where digital threats are ever-present, our Cybersecurity solutions are designed to protect your data and build resilience into your operations.
+                Our comprehensive services span Apexion Global Solutions to optimize internal workflows, Data Analytics and Business Intelligence to leverage insights for growth, and Artificial Intelligence and Machine Learning to unlock new possibilities through automation and predictive analytics. In a world where digital threats are ever-present, our Cybersecurity solutions are designed to protect your data and build resilience into your operations.
                 </p>
                 <br />
-                <Link className='main-btn px-5'>Contcat us</Link>
+                <Link className='main-btn px-5'>Contact us</Link>
             </div>
             <div className="col-md-6 mt-3">
                 <img src="https://img.freepik.com/free-photo/close-up-businesspeople-stacking-hands-meeting-office_23-2147923361.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_siglip" alt="about-us" className="w-100 rounded-4" />
@@ -81,14 +81,14 @@ function About() {
         Apexion Global Solutions is also a recognized leader in Cloud Computing with expertise across AWS, Azure, and Google Cloud, helping businesses scale and remain agile in dynamic markets. Our IT Consulting services offer strategic guidance to help clients overcome complex technology challenges, while our DevOps solutions foster collaboration and accelerate development cycles, ensuring faster time-to-market and consistent deployment.
         </p>
         <p className="fs-5 j">
-        Our commitment to quality is evident in our Quality Assurance and Testing services, where we rigorously test solutions to ensure they meet the highest standards of functionality, security, and reliability. At Apexion Global Solutions, we are more than just a service provider—we are a partner dedicated to your success, helping you navigate the complexities of digital transformation with confidence and clarity.
+        Our Commitment to quality is evident in our Quality Assurance and Testing services, where we rigorously test solutions to ensure they meet the highest standards of functionality, security, and reliability. At Apexion Global Solutions, we are more than just a service provider—we are a partner dedicated to your success, helping you navigate the complexities of digital transformation with confidence and clarity.
         </p>
     </div>
 
     <div className="bg-light p-md-5 p-3">
         <div className="card bg-light border-0 p-3 shadow-sm">
             <h1 className="fs-1 text-main">Our Mission</h1>
-            <p className="fs-5 j">At Apexion Global Solutions, our mission is to empower businesses by delivering innovative technology solutions that drive growth, enhance efficiency, and build resilience in a rapidly evolving digital landscape. We are committed to fostering long-term partnerships with our clients, understanding their unique needs, and providing tailored services that transform their vision into reality.</p>
+            <p className="fs-5 j">At Apexion Global Solutions, our mission is to empower businesses to thrive in the digital age by delivering innovative, tailored software solutions that drive growth, efficiency, and competitiveness.We strive to build lasting patnerships, foster a culture of innovation, and excelin delivery, ensuring our clients achieve exceptional results.</p>
             <p className="fs-5  j">
             Our focus is on excellence and integrity in every project we undertake. By leveraging our expertise in Digital Transformation, Application Development, Data Analytics, AI & Machine Learning, Cybersecurity, Cloud Computing, IT Consulting, DevOps, and Quality Assurance, we strive to be a catalyst for positive change. Our goal is to equip businesses with the tools and insights they need to thrive, adapt, and succeed in a technology-driven world.
             </p>
@@ -99,8 +99,23 @@ function About() {
             <div className="card border-0 p-3 shadow-sm">
                 <h1 className="fs-1 text-main">Our Vission</h1>
                 <p className="fs-5 j">
-                Our vision at Apexion Global Solutions is to be a global leader in transformative technology solutions, setting the standard for innovation, reliability, and excellence. We aspire to create a world where businesses, empowered by advanced technology, operate seamlessly, sustainably, and with resilience against future challenges.
+                "Apexion Global Solutions aims to be a pioneering force in the digital landscape, empowering businesses to achieve unparalleled success through innovative technology solutions. We envision a future where our expertise, passion, and commitment to excellence enable our clients to"
                 </p>
+                <ul>
+                    <li>Thrive in the digital economy</li>
+                    <li>Harness the power of technology to drive growth</li>
+                    <li>Foster meaningful connections with their customers</li>
+                    <li>Stay ahead of the competition</li>
+                    <li>Create a lasting impact in their industries</li>
+                </ul>
+                <h1 className="fs-3">Long-term Goals:</h1>
+                <ul>
+                    <li> Establish Apexion Global Solutions as a top-tier software solutions provider globally.                    </li>
+                    <li>Expand our presence in emerging markets and industries.                   </li>
+                    <li>Develop strategic partnerships with leading technology companies.                    </li>
+                    <li>Continuously innovate and integrate cutting-edge technologies into our solutions.                    </li>
+                    <li>Build a diverse, skilled, and passionate team of experts.                    </li>
+                </ul>
              
             </div>
             <p className="fs-5 fw-bold text-main mt-4">We envision a future where:</p>

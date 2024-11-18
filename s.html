@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .custom-file-input::-webkit-file-upload-button {
+        visibility: hidden;
+        }
+.custom-file-input::before {
+  content: '';
+  display: inline-block;
+  width: 80px;
+                height: 80px;
+                border-radius: 100px;
+                background: url(https://cdn-icons-gif.flaticon.com/11186/11186790.gif) no-repeat center;
+background-size: cover;
+  border-radius: 3px;
+  padding: 5px 8px;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+    </style>
+</head>
+<body>
+    <input class="custom-file-input" type="file">
+</body>
+</html>

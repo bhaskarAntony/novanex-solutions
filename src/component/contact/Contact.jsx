@@ -6,17 +6,17 @@ function Contact() {
         {
             icon:'bi-geo-alt',
             title:'Our Office',
-            content:'140 Towerview Ct #107, Cary, NC 27513, United States'
+            content:'WJ88+69V BMTC Complex, Old Madiwala, Kuvempu Nagar, Stage 2, BTM Layout, Bengaluru, Karnataka 560068'
         },
         {
             icon:'bi-telephone',
             title:'Phone',
-            content:'+91 9606729320'
+            content:'+91 9148696039'
         },
         {
             icon:'bi-envelope',
             title:'Email',
-            content:'hr@apexionglobalsolutions.com'
+            content:'info@apexionglobalsolutions.com'
         }
     ]
   return (
@@ -92,7 +92,8 @@ function Contact() {
             </div>
            </div>
            <div className="col-md-6">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5888304270725!2d77.53750347358951!3d12.998129714299083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3db915b73563%3A0x7c7ba38fe4e50112!2sSLV%20PG%20FOR%20GENTS!5e0!3m2!1sen!2sin!4v1730731899900!5m2!1sen!2sin" width="600" height="450" className='border-0 w-100 rounded-4' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.871093476412!2d77.61333287358805!3d12.916005616097706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae153359368a11%3A0x9e90b641d18c84ae!2sGaruda%20BHIVE%20Workspace%2C%20BTM%20Layout%20Campus!5e0!3m2!1sen!2sin!4v1731909514276!5m2!1sen!2sin" width="600" height="450" className='border-0 w-100 rounded-4' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
            </div>
         </div>
     </div>

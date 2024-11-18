@@ -1,2 +1,9 @@
 .hero{
 }
+
+.hero img{
+    border-radius: 50%;
+    min-height: 300px;
+    border: 5px solid var(--primary-color);
+    padding: 5px;
+}

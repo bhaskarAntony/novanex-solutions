@@ -9,7 +9,7 @@ function About() {
             <div className="col-md-6 mb-3">
                     <h1 className="fs-1 fw-bold">About Apexion Global Solutions</h1>
                     <p className="fs-6 text-secondary mt-3">
-                    At Highbrow Technology, we're more than just a technology company. We're your partners in innovation, dedicated to transforming your business through cutting-edge solutions and expert consultation.
+                    At Apexion Global Solutions, we're more than just a technology company. We're your partners in innovation, dedicated to transforming your business through cutting-edge solutions and expert consultation.
                     </p>
                     <br />
                     <Link className="main-btn">Learn More About Us <i class="bi bi-arrow-right"></i></Link>
