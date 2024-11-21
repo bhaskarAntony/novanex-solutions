@@ -79,8 +79,8 @@ function TestimonialSlider() {
             <div className="d-flex flex-column align-items-center justify-content-center w-100 text-center">
               
                <div className="p-3 pmd-5">
-               <h1 className="fs-3 fw-bold text-main "><span className="text-dark">Empowering Businesses</span> Through <br /> </h1>
-               <p className="fs-6">Innovative Technology Solutions</p>
+               <h1 className="fs-3 fw-bold text-main ">Elevate Your Business with<span className="text-dark"> Apexion Global Solutions</span> </h1>
+               {/* <p className="fs-6">Innovative Technology Solutions</p> */}
                </div>
               
             </div>
