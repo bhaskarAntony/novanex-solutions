@@ -13,9 +13,10 @@ function Home() {
   return (
   <section className="home">
     <Helmet>
+    <link rel="canonical" href="https://www.apexionglobalsolutions.com/" />
         <title>Apexion Global Solutions: Driving Digital Transformation with Advanced IT Services</title>
         <meta name="description" content="Apexion Global Solutions specializes in digital transformation, AI, cloud computing, application development, enterprise solutions, and IT consulting. Elevate your business with innovative, secure, and scalable technology solutions tailored to your needs." />
-        <meta name="keywords" content="digital transformation, IT solutions, AI services, cloud computing, enterprise software, application development, IT consulting, cybersecurity, DevOps, quality assurance" />
+        <meta name="keywords" content="digital transformation, IT solutions, AI services, cloud computing, enterprise software, application development, IT consulting, cybersecurity, DevOps, quality assurance, apexion bangalore, apexion global, apexion global solutions bangalore, apexion software, apexion company, apexion solutions, apexion it services" />
         <meta name="author" content="Apexion Global Solutions" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Apexion Global Solutions: Driving Digital Transformation with Advanced IT Services" />
