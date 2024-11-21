@@ -1,3 +1,26 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt file for https://www.apexionglobalsolutions.com/
+
+# Allow all search engines to crawl the website
 User-agent: *
 Disallow:
+
+# Disallow crawling of sensitive directories
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /api/
+Disallow: /scripts/
+
+# Sitemap location
+Sitemap: https://www.apexionglobalsolutions.com/sitemap.xml
+
+# Additional rules for specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for non-Google or non-Bing bots
+User-agent: *
+Crawl-delay: 10
