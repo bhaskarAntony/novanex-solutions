@@ -4,28 +4,28 @@ import './style.css';
 const testimonials = [
     {
         icon: 'bi bi-cloud', // Cloud computing icon
-        title: 'Cloud Solutions',
-        content: 'Empowering businesses with scalable and secure cloud infrastructure.'
+        title: ' Innovative IT Services Tailored to Your Needs',
+        content: 'At Apexion Global Solutions, we offer a wide range of IT services designed to address your business challenges. From application development to cloud computing, our solutions are tailored to help you achieve efficiency, scalability, and growth.'
     },
     {
         icon: 'bi bi-graph-up', // Data analytics icon
-        title: 'Data Analytics',
-        content: 'Transforming data into actionable insights for informed decision-making.'
+        title: 'Driving Success Through Digital Transformation',
+        content: 'Embrace the future of technology with our digital transformation services. We empower businesses to modernize operations, enhance customer experiences, and unlock new revenue streams through innovative digital strategies.'
     },
     {
         icon: 'bi bi-shield-lock', // Cybersecurity icon
-        title: 'Cybersecurity Services',
-        content: 'Protecting your digital assets with comprehensive security measures.'
+        title: ' Expertise in AI, Machine Learning, and Analytics',
+        content: 'Leverage the power of artificial intelligence, machine learning, and data analytics to gain actionable insights, automate processes, and make data-driven decisions that set you apart from the competition.'
     },
     {
         icon: 'bi bi-people', // Team collaboration icon
-        title: 'Team Collaboration',
-        content: 'Enhancing teamwork through innovative collaboration tools.'
+        title: 'Comprehensive Cybersecurity for Peace of Mind',
+        content: 'Protect your business from digital threats with our cybersecurity solutions. From risk assessment to data protection, we ensure your digital assets remain secure and your operations uninterrupted.'
     },
     {
         icon: 'bi bi-lightbulb', // Innovation icon
-        title: 'Innovative Solutions',
-        content: 'Driving innovation with tailored tech solutions for your business.'
+        title: 'Cloud Computing Solutions for Every Business',
+        content: 'Our cloud computing services provide scalable and reliable solutions on platforms like AWS, Azure, and Google Cloud. Migrate your workloads seamlessly and optimize your IT infrastructure for the future.'
     },
     {
         icon: 'bi bi-basket', // E-commerce icon
@@ -91,7 +91,7 @@ function TestimonialSlider() {
                             <div className="icon">
                                 <i className={`${testimonial.icon} fs-3 text-white`}></i>
                             </div>
-                            <h3 className='fs-5 text-main fw-bold'>{testimonial.title}</h3>
+                            <h2 className='fs-5 text-main fw-bold'>{testimonial.title}</h2>
                             <p className="fs-6">{testimonial.content}</p>
                         </div>
                     ))}

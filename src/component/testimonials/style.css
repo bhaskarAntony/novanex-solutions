@@ -5,6 +5,7 @@
 
 .testimonial-container {
     display: flex;
+    align-items: center;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -13,7 +14,7 @@
 .testimonial-card {
     flex: 0 0 auto; /* Prevent flex items from shrinking */
     width: 250px; /* Set the width of each card */
-    min-height: 150px; /* Set height for cards */
+    /* min-height: 150px; */
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;

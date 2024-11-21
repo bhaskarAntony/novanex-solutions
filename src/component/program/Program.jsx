@@ -26,9 +26,9 @@ function Program({ click }) {
             <div className="row align-items-center">
                 <div className="col-md-5">
                     <div className="program-left">
-                        <h1 className="display-3 fw-bold text-dark">Is this <span className="text-main">Services</span> for you?</h1>
+                        <h1 className="display-3 fw-bold text-dark">Our Commitment to  <span className="text-main">Excellence</span></h1>
                         <p className="fs-6 text-dark mt-4">
-                            Whether you’re a business looking to innovate or an individual aiming to enhance your skills, our programs at Apexion Global Solutions are designed to equip you with the knowledge and tools needed to excel.
+                        "We combine innovation, expertise, and a client-first approach to deliver top-notch IT solutions that help businesses thrive in a rapidly evolving digital landscape."
                         </p>
                         <p className="fs-6 text-dark">
                             Join us to explore advanced technologies that will elevate your career and business capabilities.

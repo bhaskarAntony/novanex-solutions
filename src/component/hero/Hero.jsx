@@ -10,9 +10,10 @@ function Hero() {
         Elevate Your Business with <br />
        <span className="text-main"> Apexion Global Solutions</span>
         </h1>
+          <h1 className='fs-3'>Empower Your Business with Innovative IT Solutions <br /> and Digital Transformation Services</h1>
+       
         <p className="fs-6 text-secondary">
-        Transform your operations with our expert solutions in
-digital transformation, business consulting, and more.
+        Welcome to Apexion Global Solutions – your one-stop destination for digital transformation and advanced IT services. From cloud computing to cybersecurity, we deliver innovative solutions that help businesses thrive in the digital era.
         </p>
         <button className="main-btn px-5">Explore Our Services</button>
         </div>

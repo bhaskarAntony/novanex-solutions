@@ -5,23 +5,23 @@ function Why({click}) {
     const data = [
         {
             icon: 'bi bi-globe', // Bootstrap icon for global reach
-            title: 'Global Expertise',
-            subtitle: 'Leverage Apex’s global network for cutting-edge solutions.'
+            title: 'Expertise Across Industries',
+            subtitle: 'Our team brings years of experience in delivering IT solutions for diverse sectors.'
         },
         {
             icon: 'bi bi-tools', // Bootstrap icon for customization
-            title: 'Tailored Solutions',
-            subtitle: 'Custom-built services that match your business needs.'
+            title: 'Customized Solutions',
+            subtitle: 'We tailor every service to meet your unique business needs.'
         },
         {
             icon: 'bi bi-speedometer2', // Bootstrap icon for performance
-            title: 'High Performance',
-            subtitle: 'Maximize operational efficiency with advanced technology.'
+            title: 'Scalability and Innovation',
+            subtitle: 'From startups to enterprises, our solutions grow with your business.'
         },
         {
             icon: 'bi bi-shield-lock', // Bootstrap icon for security
-            title: 'Advanced Security',
-            subtitle: 'Ensure data protection with robust cybersecurity measures.'
+            title: 'End-to-End Support',
+            subtitle: 'We provide seamless implementation, support, and consulting services.'
         }
     ];
 
@@ -29,7 +29,7 @@ function Why({click}) {
         <section className='p-3 p-md-5' id='benefits'>
             <div className="d-flex flex-column align-items-center justify-content-center w-100 text-center">
                 
-            <h1 className='fs-3 fw-bold'>Why Choose Apex Solutions?</h1>
+            <h1 className='fs-3 fw-bold'>Why Choose Apexion Global Solutions?</h1>
                 <p className="fs-6  text-main">Benefits Of Apex Services</p>
             </div>
             <div className="row mt-4">
