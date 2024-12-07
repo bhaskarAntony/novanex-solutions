@@ -105,6 +105,7 @@ function TestimonialSlider() {
                             <div>
                             <h2 className='fs-3 text-white fw-bold'>{testimonial.title}</h2>
                             <p className="fs-6">{testimonial.content}</p>
+                            <button className="btn btn-light btn-sm rounded px-4 text-main mx-0 rounded-pill">more</button>
                             </div>
                             </div>
                         </div>
