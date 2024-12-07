@@ -19,6 +19,19 @@ function Contact() {
             content:'info@apexionglobalsolutions.com'
         }
     ]
+
+    const services = [
+        "Digital Transformation",
+        "Application Development (Mobile, Web, Cloud)",
+        "Enterprise Software Solutions",
+        "Data Analytics and BI",
+        "Artificial Intelligence and Machine Learning",
+        "Cybersecurity",
+        "Cloud Computing (AWS, Azure, Google Cloud)",
+        "IT Consulting",
+        "DevOps",
+        "Quality Assurance and Testing",
+      ];
   return (
  <div>
      <div className="section contact p-3 p-md-5">
@@ -49,16 +62,20 @@ function Contact() {
 
                 <form>
                     <div className="form-group mt-3">
-                        <label htmlFor="" className="form-label">Business Vector</label>
-                        <select name="" id="" className="form-select">  
-                            <option value="" selected disabled>Select a business vector</option>
-                            <option value="consulting">Consulting</option>
-                            <option value="staffing">Staffing</option>
-                            <option value="technology">Technology</option>
+                        <label htmlFor="" className="form-label">Business Sector</label>
+                        <select name="services" id="services" className="form-select">
+                        <option value="" selected disabled>
+                            Select a service
+                        </option>
+                        {services.map((service, index) => (
+                            <option key={index} value={service}>
+                            {service}
+                            </option>
+                        ))}
                         </select>
                     </div>
 
-                    <div className="form-group mt-3">
+                    {/* <div className="form-group mt-3">
                         <label htmlFor="" className="form-label">Service</label>
                         <select name="" id="" className="form-select">  
                             <option value="" selected disabled>Select a service</option>
@@ -66,7 +83,7 @@ function Contact() {
                             <option value="staffing">Staffing</option>
                             <option value="technology">Technology</option>
                         </select>
-                    </div>
+                    </div> */}
 
                     <div className="form-group mt-3">
                         <label htmlFor="" className="form-label">Name</label>

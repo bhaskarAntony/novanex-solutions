@@ -1,5 +1,5 @@
 .about-hero{
-    background: linear-gradient(#d8d8d865, #ffffff), url('https://img.freepik.com/free-photo/group-diverse-business-people_53876-20967.jpg?t=st=1730640202~exp=1730643802~hmac=daa32b655d6d3c8fdc5135f81f2884c5618d70073073b092246145ba2e4c28a0&w=1060') no-repeat center;
+    background: linear-gradient(#000000be, #000000), url('https://img.freepik.com/free-photo/group-diverse-business-people_53876-20967.jpg?t=st=1730640202~exp=1730643802~hmac=daa32b655d6d3c8fdc5135f81f2884c5618d70073073b092246145ba2e4c28a0&w=1060') no-repeat center;
     background-size: cover;
     min-height: 50vh;
 }
@@ -12,4 +12,14 @@
     width: 50px;
     height: 50px;
     border-radius: 100px;
+}
+.about-cards .card{
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+.about-cards .card *{
+    font-size: 1.1rem !important;
+}
+.about *:not(h1){
+    line-height: 1.8 !important;
 }

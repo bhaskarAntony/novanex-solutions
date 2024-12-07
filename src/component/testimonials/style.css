@@ -1,6 +1,6 @@
 .testimonial-slider {
     position: relative;
-    background-color: var(--primary-color);
+    background-color: #0c0c0c;
 }
 
 .testimonial-container {
@@ -13,7 +13,7 @@
 
 .testimonial-card {
     flex: 0 0 auto; /* Prevent flex items from shrinking */
-    width: 250px; /* Set the width of each card */
+    width: 300px; /* Set the width of each card */
     /* min-height: 150px; */
     margin: 10px;
     border: 1px solid #ccc;
@@ -21,7 +21,7 @@
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-    
+    overflow: hidden;
     scroll-snap-align: center; /* Center align cards in the viewport */
    
 }
@@ -109,4 +109,24 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+}
+.content{
+    min-height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: linear-gradient(#231d4e64, #12043186);
+    backdrop-filter: blur(2px);
+    transition: 2s;
+    cursor: pointer;
+    color: #fff;
+}
+.content p{
+    display: none;
+}
+.content:hover p{
+    display: block;
+}
+.content:hover{
+    backdrop-filter: blur(100px);
 }

@@ -51,14 +51,14 @@ function About() {
   return (
    <section className="about">
     <div className="about-hero p-3 p-md-5">
-        <h1 className="display-3 fw-bold">
-        <span className="text-main">Empowering</span> <br /> Innovation
+        <h1 className="display-3 fw-bold text-light">
+        <span className="text-warning">Empowering</span> <br /> Innovation
         </h1>
         <p className="fs-4 text-secondary">
         Discover the story behind Apexion Global Solutions and our <br /> commitment to excellence.
         </p>
     </div>
-    <h1 className="my-4 text-center fs-1 fw-bold">
+    <h1 className="my-4 text-center text-main fs-1 fw-bold">
     Who We Are
     </h1>
     <div className="container-fluid p-3 p-md-5">
@@ -89,7 +89,7 @@ function About() {
         <div className="card bg-light border-0 p-3 shadow-sm">
             <h1 className="fs-1 text-main">Our Mission</h1>
             <p className="fs-5 j">At Apexion Global Solutions, our mission is to empower businesses to thrive in the digital age by delivering innovative, tailored software solutions that drive growth, efficiency, and competitiveness.We strive to build lasting patnerships, foster a culture of innovation, and excelin delivery, ensuring our clients achieve exceptional results.</p>
-            <p className="fs-5  j">
+            <p className="fs-5 ">
             Our focus is on excellence and integrity in every project we undertake. By leveraging our expertise in Digital Transformation, Application Development, Data Analytics, AI & Machine Learning, Cybersecurity, Cloud Computing, IT Consulting, DevOps, and Quality Assurance, we strive to be a catalyst for positive change. Our goal is to equip businesses with the tools and insights they need to thrive, adapt, and succeed in a technology-driven world.
             </p>
         </div>
@@ -99,27 +99,27 @@ function About() {
             <div className="card border-0 p-3 shadow-sm">
                 <h1 className="fs-1 text-main">Our Vission</h1>
                 <p className="fs-5 j">
-                "Apexion Global Solutions aims to be a pioneering force in the digital landscape, empowering businesses to achieve unparalleled success through innovative technology solutions. We envision a future where our expertise, passion, and commitment to excellence enable our clients to"
+                <q>Apexion Global Solutions aims to be a pioneering force in the digital landscape, empowering businesses to achieve unparalleled success through innovative technology solutions. We envision a future where our expertise, passion, and commitment to excellence enable our clients to</q>
                 </p>
-                <ul>
-                    <li>Thrive in the digital economy</li>
-                    <li>Harness the power of technology to drive growth</li>
-                    <li>Foster meaningful connections with their customers</li>
-                    <li>Stay ahead of the competition</li>
-                    <li>Create a lasting impact in their industries</li>
+                <ul typeof='disc'>
+                    <li className='fs-5'>Thrive in the digital economy</li>
+                    <li className='fs-5'>Harness the power of technology to drive growth</li>
+                    <li className='fs-5'>Foster meaningful connections with their customers</li>
+                    <li className='fs-5'>Stay ahead of the competition</li>
+                    <li className='fs-5'>Create a lasting impact in their industries</li>
                 </ul>
-                <h1 className="fs-3">Long-term Goals:</h1>
+                <h1 className="fs-3 mb-4 text-main"><u>Long-term Goals:</u></h1>
                 <ul>
-                    <li> Establish Apexion Global Solutions as a top-tier software solutions provider globally.                    </li>
-                    <li>Expand our presence in emerging markets and industries.                   </li>
-                    <li>Develop strategic partnerships with leading technology companies.                    </li>
-                    <li>Continuously innovate and integrate cutting-edge technologies into our solutions.                    </li>
-                    <li>Build a diverse, skilled, and passionate team of experts.                    </li>
+                    <li className='fs-5'> Establish Apexion Global Solutions as a top-tier software solutions provider globally.                    </li>
+                    <li className='fs-5'>Expand our presence in emerging markets and industries.                   </li>
+                    <li className='fs-5'>Develop strategic partnerships with leading technology companies.                    </li>
+                    <li className='fs-5'>Continuously innovate and integrate cutting-edge technologies into our solutions.                    </li>
+                    <li className='fs-5'>Build a diverse, skilled, and passionate team of experts.</li>
                 </ul>
              
             </div>
-            <p className="fs-5 fw-bold text-main mt-4">We envision a future where:</p>
-                <div className="row">
+            <h1 className="fs-1 fw-bold text-main my-4 text-center">We envision a future where:</h1>
+                <div className="row about-cards">
                     <div className="col-md-3 mb-3">
                         <div className="card shadow-sm p-3 h-100 d-flex align-items-center  border-0">
                             <p className="fs-6">
@@ -180,7 +180,7 @@ function About() {
         </div>
 
       <div className="container-fluid p-3 p-md-5 bg-light">
-      <h1 className="text-center fs-1 fw-bold">Our Core Values</h1>
+      <h1 className="text-center fs-1 fw-bold text-main fs-1">Our Core Values</h1>
         <div className="row mt-5">
             {
                 coreValues.map((item, index)=>(
@@ -197,7 +197,7 @@ function About() {
             }
         </div>
       </div>
-      <div className="container-fluid p-3 p-md-5">
+      {/* <div className="container-fluid p-3 p-md-5">
       <div className="row">
         {
             testimonials.map((item, index)=>(
@@ -213,7 +213,8 @@ function About() {
             ))
         }
       </div>
-      </div>
+      </div> */}
+      
    </section>
   )
 }

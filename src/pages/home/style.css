@@ -1,5 +1,5 @@
 .transform{
-    background: linear-gradient(#575757b3, #6f6e6e90), url(https://highbrowtechnology.com/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F6804073%2Fpexels-photo-6804073.jpeg&w=1080&q=100) no-repeat center;
+    background: linear-gradient(#121212b3, #050404bf), url(https://highbrowtechnology.com/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F6804073%2Fpexels-photo-6804073.jpeg&w=1080&q=100) no-repeat center;
     background-size: cover;
     min-height: 50vh;
     display: flex;

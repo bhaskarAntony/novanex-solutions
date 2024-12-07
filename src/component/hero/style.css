@@ -1,9 +1,12 @@
 .hero{
+    background:linear-gradient(#03040cd6, #080812d0), url(https://img.freepik.com/free-photo/businessman-using-digital-tablet_53876-108317.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid) no-repeat center;
+    background-size: cover;
 }
 
 .hero img{
-    border-radius: 50%;
-    min-height: 300px;
-    border: 5px solid var(--primary-color);
+    border-radius: 20px;
+    min-height: 400px;
     padding: 5px;
+    object-fit: cover;
+    object-position: right;
 }
