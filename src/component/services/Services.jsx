@@ -77,7 +77,7 @@ function Services() {
       ];
       
   return (
-    <section className="services-section p-3 p-md-5 container-fluid bg-light">
+    <section className="services-section p-3 p-md-5 container-fluid bg-light" id='services'>
         <h1 className="fs-3 fw-bold text-center my-5">Our Services</h1>
         <div className="row">
             {
