@@ -53,13 +53,7 @@ function Services() {
           icon: "bi bi-cloud",
           image:"https://img.freepik.com/free-photo/saas-concept-collage_23-2149399281.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
         },
-        {
-          title: "IT Consulting",
-          subtitle:'Expert IT Consulting for Streamlined Technology Integration',
-          description: "Providing expert IT consulting services to help businesses optimize their tech infrastructure, driven by Apexion Global Solutions.",
-          icon: "bi bi-people",
-          image:"https://img.freepik.com/free-photo/modern-equipped-computer-lab_23-2149241261.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
+        
         {
           title: "DevOps",
           subtitle:'DevOps Practices for Seamless Development and Deployment',

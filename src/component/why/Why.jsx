@@ -30,7 +30,7 @@ function Why({click}) {
             <div className="d-flex flex-column align-items-center justify-content-center w-100 text-center">
                 
             <h1 className='fs-3 fw-bold'>Why Choose Apexion Global Solutions?</h1>
-                <p className="fs-6  text-main">Benefits Of Apex Services</p>
+                <p className="fs-6  text-main">Benefits Of Apexion Services</p>
             </div>
             <div className="row mt-4">
                 {data.map((item, index) => (

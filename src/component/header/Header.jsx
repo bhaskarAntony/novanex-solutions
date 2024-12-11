@@ -26,7 +26,7 @@ function Header() {
     <NavDropdown.Item href="/services/artificial-intelligence-machine-learning">Artificial Intelligence and Machine Learning</NavDropdown.Item>
     <NavDropdown.Item href="/services/cybersecurity">Cybersecurity</NavDropdown.Item>
     <NavDropdown.Item href="/services/cloud-computing">Cloud Computing (AWS, Azure, Google Cloud)</NavDropdown.Item>
-    <NavDropdown.Item href="/services/it-consulting">IT Consulting</NavDropdown.Item>
+    {/* <NavDropdown.Item href="/services/it-consulting">IT Consulting</NavDropdown.Item> */}
     <NavDropdown.Item href="/services/devops">DevOps</NavDropdown.Item>
     <NavDropdown.Item href="/services/quality-assurance-testing">Quality Assurance and Testing</NavDropdown.Item>
 </NavDropdown>

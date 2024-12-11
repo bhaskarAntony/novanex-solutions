@@ -197,7 +197,7 @@ function About() {
             }
         </div>
       </div>
-      {/* <div className="container-fluid p-3 p-md-5">
+      <div className="container-fluid p-3 p-md-5">
       <div className="row">
         {
             testimonials.map((item, index)=>(
@@ -213,7 +213,7 @@ function About() {
             ))
         }
       </div>
-      </div> */}
+      </div>
       
    </section>
   )

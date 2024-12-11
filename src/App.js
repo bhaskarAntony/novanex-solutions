@@ -33,7 +33,7 @@ function App() {
 
     <Route path='/services/cybersecurity' element={<Cybersecurity/>}/>
     <Route path='/services/cloud-computing' element={<CloudComputing/>}/>
-    <Route path='/services/it-consulting' element={<ITConsulting/>}/>
+    {/* <Route path='/services/it-consulting' element={<ITConsulting/>}/> */}
     <Route path='/services/devops ' element={<DevOps/>}/>
     <Route path='/services/quality-assurance-testing' element={<QualityAssurance/>}/>
     <Route path='/aboutus' element={<About/>}/>
