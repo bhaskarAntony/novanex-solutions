@@ -11,7 +11,7 @@
 @media(max-width:768px){
     .about-img2{
         transform: translateX(100px) translateY(-100px);
-        /* display: none; */
+        display: none;
         width: 100% !important;
     }
     .about-img1{

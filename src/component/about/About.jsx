@@ -5,7 +5,7 @@ function About() {
     <section className="container-fluid p-3 p-md-5 overflow-hidden">
         <div className="row">
           <div className="col-md-6">
-             <div className="left">
+             <div className="left mb-3">
              <img src="https://growix.peacefulqode.co.in/wp-content/uploads/2024/10/h4-about-001.webp" alt="novanex solutions" className="about-img1 w-75 rounded-4" data-aos="zoom-in" />
              <img src="https://growix.peacefulqode.co.in/wp-content/uploads/2024/10/h4-about-002.webp" alt="novanex solutions" className="about-img2 w-50 rounded-4" data-aos="zoom-in"/>
              </div>
