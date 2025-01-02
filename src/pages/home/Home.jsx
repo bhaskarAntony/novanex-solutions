@@ -39,9 +39,9 @@ function Home() {
     <Services/>
     <Why/>
     <section className="p-3 p-md-5 text-center  transform text-light">
-        <h1 className="fs-1 fw-bold">Contact Us for a Free Consultation</h1>
-        <p className="fs-5 mt-2">"Ready to transform your business? Get in touch with Novanex Solutions to discuss your IT needs and discover how we can help you achieve your goals."</p>
-        <button className="main-btn mt-3">Get Started Today  <i class="bi bi-arrow-right"></i></button>
+        <h1 className="fs-1 fw-bold" data-aos="fade-up">Contact Us for a Free Consultation</h1>
+        <p className="fs-5 mt-2" data-aos="fade-up">"Ready to transform your business? Get in touch with Novanex Solutions to discuss your IT needs and discover how we can help you achieve your goals."</p>
+        <button className="main-btn mt-3" data-aos="fade-up">Get Started Today  <i class="bi bi-arrow-right"></i></button>
     </section>
     {/* <Number/> */}
         <Program/>

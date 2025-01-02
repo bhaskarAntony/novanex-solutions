@@ -19,3 +19,6 @@
 .contact-card{
     background: #F1F0E8;
 }
+.contact-card p{
+   word-break: break-all;
+}

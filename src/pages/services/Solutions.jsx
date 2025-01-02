@@ -10,7 +10,7 @@ function Solutions({data}) {
             {
                 data.content.map((item,index)=>(
                     <div className="col-md-4 mb-4">
-                        <div className="service-card text-center h-100 p-3 d-flex flex-column justify-content-between bg-white">
+                        <div className="service-card text-center h-100 p-3 d-flex flex-column justify-content-between bg-white" data-aos="zoom-in">
                             <div className="contact-icon m-auto mb-4">
                                 <i className={item.icon}></i>
                             </div>

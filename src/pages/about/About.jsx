@@ -12,9 +12,9 @@ function AboutPage() {
    <section className="about">
     <div className="about-hero p-3 p-md-5">
         <h1 className="display-3 fw-bold text-light">
-        <span className="text-main">Empowering</span> <br /> Innovation
+        <span className="text-main" data-aos="fade-up">Empowering</span> <br /> Innovation
         </h1>
-        <p className="fs-4 text-secondary">
+        <p className="fs-4 text-secondary" data-aos="fade-up">
         Discover the story behind Novanex Solutions and our <br /> commitment to excellence.
         </p>
     </div>

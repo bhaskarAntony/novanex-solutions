@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import Header from './component/header/Header'
 import './App.css'
@@ -22,9 +22,13 @@ import Hr from './pages/services/Hr'
 import NonITtoIT from './pages/services/NonITtoIT'
 import ContactPage from './component/contact/Contact'
 import AboutPage from './pages/about/About'
+import Aos from 'aos'
 
 
 function App() {
+  useEffect(()=>{
+    Aos.init();//initilization
+  }, [])
   return (
    <Fragment>
     <BrowserRouter>

@@ -32,10 +32,10 @@ function Why() {
   return (
    <section className="container-fluid p-3 p-md-5">
         <div className="row">
-            <div className="col-md-5">
-                <p className="fs-4 text-main">Why Choose Us</p>
-                <h1 className="fs-1 fw-bold">Empowering Businesses: Our Success Stories</h1>
-                <p className="fs-6">
+            <div className="col-md-5 mb-3">
+                <p className="fs-4 text-main" data-aos="fade-up">Why Choose Us</p>
+                <h1 className="fs-1 fw-bold" data-aos="fade-up">Empowering Businesses: Our Success Stories</h1>
+                <p className="fs-6" data-aos="fade-up">
                 At Novanex Solutions, we specialize in empowering individuals and businesses through our comprehensive consulting services. Our expert career counseling and placement support help professionals identify opportunities and achieve their career goals. With industry-focused software training programs, we equip individuals with the skills needed to excel in a competitive job market.
                 </p>
                 <a href='/' className="btn btn-primary p-3 px-5 rounded-pill m-0">Know More</a>
@@ -45,7 +45,7 @@ function Why() {
                 {
                     whyChooseUs.map((item, index)=>(
                         <div className="col-md-6 mb-3">
-                            <div className={`p-3 rounded h-100 why-card ${index%2 == 0? 'highlight':index==1?'first-why-card text-white':null}`}>
+                            <div className={`p-3 rounded h-100 why-card ${index%2 == 0? 'highlight':index==1?'first-why-card text-white':null}`} data-aos="zoom-in">
                                
                                 <i className={`fs-1 ${item.icon} ${index != 1?'text-main h-icon':null}`}></i>
                                 <h1 className="fs-3 mt-3 fw-bold">{item.title}</h1>

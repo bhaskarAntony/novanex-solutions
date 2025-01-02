@@ -31,11 +31,11 @@ function Program({ click }) {
             <div className="row">
                 <div className="col-md-5">
                     <div className="program-left">
-                        <h1 className="display-5 fw-bold text-dark">Why Choose <span className="text-main">Novanex Solutions</span></h1>
-                        <p className="fs-6 text-dark mt-4">
+                        <h1 className="display-5 fw-bold text-dark" data-aos="fade-up">Why Choose <span className="text-main">Novanex Solutions</span></h1>
+                        <p className="fs-6 text-dark mt-4" data-aos="fade-up">
                             At Novanex Solutions, we bring unparalleled expertise and dedication to empowering careers and businesses. Our services are designed to address the unique challenges of today’s dynamic environment.
                         </p>
-                        <p className="fs-6 text-dark">
+                        <p className="fs-6 text-dark" data-aos="fade-up">
                             Join us to experience transformative solutions that will elevate your career and business to new heights.
                         </p>
                         <br />
@@ -43,7 +43,7 @@ function Program({ click }) {
                     </div>
                 </div>
                 <div className="col-md-7 mt-5 m-md-0">
-                    <div className="program-right">
+                    <div className="program-right" data-aos="fade-left">
                         {data.map((service, index) => (
                             <div key={index} className="program-card gap-3 text-dark">
                                 <div className="icon">

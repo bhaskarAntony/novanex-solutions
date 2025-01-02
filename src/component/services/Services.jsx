@@ -73,22 +73,22 @@ function Services() {
       
   return (
     <section className="services-section p-3 p-md-5 container-fluid bg-light mt-4" id='services'>
-        <h1 className="fs-1 fw-bold text-center">Our Services</h1>
+        <h1 className="fs-1 fw-bold text-center" data-aos="fade-up">Our Services</h1>
         {/* <h1 className="fs-1 fw-bold text-center">Empower your business <br />
         with our services.</h1> */}
         <div className="row mt-5 justify-content-center">
             {
                 servicesData.map((item,index)=>(
                     <div className="col-md-4 mb-4">
-                        <div className="service-card h-100 d-flex flex-column justify-content-between bg-white">
+                        <div className="service-card h-100 d-flex flex-column justify-content-between bg-white" data-aos="zoom-in">
                             {/* <div className="service-icon mb-4">
                                 <i className={item.icon}></i>
                                
                             </div> */}
                             <img src={item.image} alt={item.title} className='w-100' />
                           <div className='p-3'>
-                          <h4 className="fs-4 fw-bold">{item.title}</h4>
-                          <p className="fs-6 text-secondary">{item.description}</p>
+                          <h4 className="fs-4 fw-bold" data-aos="fade-up">{item.title}</h4>
+                          <p className="fs-6 text-secondary" data-aos="fade-up">{item.description}</p>
                           <Link className='nav-link text-main fw-bold'>Learn More <i class="bi bi-arrow-right"></i></Link>
                           </div>
                         

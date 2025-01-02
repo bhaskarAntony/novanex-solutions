@@ -8,12 +8,13 @@ function Footer() {
         <div className="row">
             <div className="col-md-4">
                 <img src={logo} alt="" className="logo" />
-                <p className="fs-6 mt-4">
+                <p className="fs-6 mt-4" data-aos="fade-up">
                 At Novanex Solutions, we specialize in empowering individuals and businesses through our comprehensive consulting services. Our expert career counseling and placement support help professionals identify opportunities and achieve their career goals. With industry-focused software training programs, we equip individuals with the skills needed to excel in a competitive job market.
                 </p>
             </div>
             <div className="col-md-2">
                 <h3 className="fs-4 fw-bold">Quick Links</h3>
+                <hr />
                 <ul>
                     <li><a href="">About us</a></li>
                     <li><a href="">Contact us</a></li>
@@ -23,6 +24,7 @@ function Footer() {
 
             <div className="col-md-3">
                 <h3 className="fs-4 fw-bold">Our Services</h3>
+                <hr />
                 <ul>
                     <li><a href="">Software Training Services</a></li>
                     <li><a href="">Career Counseling</a></li>
@@ -35,6 +37,7 @@ function Footer() {
 
             <div className="col-md-3">
                 <h3 className="fs-4 fw-bold">Follow Us On</h3>
+                <hr />
                 <ul >
                     <li><a href="" className='text-main'><i className='bi bi-facebook fs-3'></i> Facebook</a></li>
                     <li><a href="" className='text-main'><i className='bi bi-instagram fs-3'></i> Instagram</a></li>

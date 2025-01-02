@@ -84,7 +84,7 @@ function TestimonialSlider() {
             </div>
             <div className="testimonial-slider py-5 mt-5">
             <div className="text-center">
-               <h1 className="fs-1 fw-bold text-main ">Elevate Your Business <br /> with<span className="text-white text-center"> Novanex  Solutions</span> </h1>
+               <h1 className="fs-1 fw-bold text-main " data-aos="fade-up">Elevate Your Business <br /> with<span className="text-white text-center" data-aos="fade-up"> Novanex  Solutions</span> </h1>
                {/* <p className="fs-6">Innovative Technology Solutions</p> */}
                </div>
                 <div className="testimonial-container" ref={containerRef}>
