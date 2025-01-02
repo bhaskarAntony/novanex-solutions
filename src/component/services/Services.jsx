@@ -3,77 +3,80 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 function Services() {
-    const servicesData = [
-        {
-          title: "Digital Transformation",
-          subtitle:'Drive Efficiency with Expert Digital Transformation Services',
-          description: "Empowering businesses to embrace digital technologies and drive operational efficiency with Apexion Global Solutions.",
-          icon: "bi bi-lightbulb",
-          image:"https://img.freepik.com/free-vector/polygonal-wireframe-image-human-hand-touch-electronic-display-abstract-vector-illustration_1284-30756.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Application Development (Mobile, Web, Cloud)",
-          subtitle:'Custom Application Development: Mobile, Web, and Cloud',
-          description: "Building innovative applications for mobile, web, and cloud platforms to meet modern demands, crafted by Apexion Global Solutions.",
-          icon: "bi bi-phone",
-          image:"https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150038900.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Enterprise Software Solutions",
-          subtitle:'Enterprise Software Tailored to Your Business Needs',
-          description: "Delivering scalable enterprise software solutions tailored by Apexion Global Solutions to improve productivity and streamline processes.",
-          icon: "bi bi-building",
-          image:"https://img.freepik.com/free-photo/people-office-analyzing-checking-finance-graphs_23-2150377138.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Data Analytics and BI",
-          subtitle:'Leverage Data Analytics for Smarter Business Decisions',
-          description: "Providing actionable insights through data analytics and business intelligence tools, powered by Apexion Global Solutions.",
-          icon: "bi bi-graph-up-arrow",
-          image:"https://img.freepik.com/free-photo/office-workers-using-finance-graphs_23-2150408669.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Artificial Intelligence and Machine Learning",
-          subtitle:'AI and Machine Learning Solutions for Enhanced Automation',
-          description: "Implementing AI and ML solutions to automate tasks and enhance decision-making, guided by Apexion Global Solutions expertise.",
-          icon: "bi bi-cpu",
-          image:"https://img.freepik.com/free-photo/programming-background-collage_23-2149901780.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Cybersecurity",
-          subtitle:'Comprehensive Cybersecurity to Protect Your Digital Assets',
-          description: "Ensuring comprehensive security solutions to protect data and mitigate risks, secured by Apexion Global Solutions.",
-          icon: "bi bi-shield-lock",
-          image:"https://img.freepik.com/free-photo/ai-cybersecurity-virus-protection-machine-learning_53876-129788.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Cloud Computing (AWS, Azure, Google Cloud)",
-          subtitle:'Optimize Operations with Scalable Cloud Computing Solutions',
-          description: "Enabling efficient cloud solutions on AWS, Azure, and Google Cloud with Apexion Global Solutions.",
-          icon: "bi bi-cloud",
-          image:"https://img.freepik.com/free-photo/saas-concept-collage_23-2149399281.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        
-        {
-          title: "DevOps",
-          subtitle:'DevOps Practices for Seamless Development and Deployment',
-          description: "Streamlining development and operations with efficient DevOps practices by Apexion Global Solutions.",
-          icon: "bi bi-tools",
-          image:"https://img.freepik.com/free-photo/programming-background-collage_23-2149901769.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        },
-        {
-          title: "Quality Assurance and Testing",
-          subtitle:'Ensure Quality with Advanced Testing and QA Services',
-          description: "Ensuring quality and reliability through comprehensive testing services, maintained by Apexion Global Solutions.",
-          icon: "bi bi-check2-square",
-          image:"https://img.freepik.com/free-photo/standard-quality-control-collage_23-2149631023.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-        }
-      ];
+  const servicesData = [
+    {
+      title: "Software Training Services",
+      subtitle: "Master Technology with Comprehensive Training",
+      description: "Delivering hands-on training in software development, data analysis, cloud computing, and other in-demand technologies.",
+      icon: "bi bi-laptop",
+      image: "https://img.freepik.com/premium-photo/startup-business-people-group-working-everyday-job-modern-office_530697-16020.jpg?semt=ais_hybrid"
+    },
+    {
+      title: "Career Counseling",
+      subtitle: "Empower Your Future with Professional Career Guidance",
+      description: "Providing personalized career counseling to help individuals make informed decisions about their professional journey.",
+      icon: "bi bi-compass",
+      image: "https://img.freepik.com/premium-photo/happy-business-partners-smiling-while-talking-about-work-meeting-office-female-colleague-sitting-sofa-speaking-her-male-boss_662251-316.jpg?semt=ais_hybrid"
+    },
+    {
+      title: "Placement Counseling",
+      subtitle: "Achieve Career Success with Expert Placement Advice",
+      description: "Helping candidates navigate job opportunities and prepare for successful placements in their desired fields.",
+      icon: "bi bi-briefcase",
+      image: "https://img.freepik.com/premium-photo/diverse-group-women-men-joining-alcoholic-anonymous-meeting-young-people-with-mental-health-problems-attending-group-counseling_662251-1050.jpg?semt=ais_hybrid"
+    },
+    {
+      title: "Not IT to IT Placement Support",
+      subtitle: "Transition Seamlessly into the IT Industry",
+      description: "Guiding professionals from non-IT backgrounds to secure rewarding roles in the IT industry with targeted support and training.",
+      icon: "bi bi-arrow-right-square",
+      image: "https://img.freepik.com/free-photo/programming-background-collage_23-2149901765.jpg?semt=ais_hybrid"
+    },
+    {
+      title: "Human Resources Consulting",
+      subtitle: "Enhance Workforce Management with HR Expertise",
+      description: "Providing HR solutions to streamline recruitment, training, and employee management processes for businesses.",
+      icon: "bi bi-people",
+      image: "https://img.freepik.com/premium-photo/side-view-handsome-boss-talking-about-work-deal-business-contract-with-woman-coworker-office_662251-203.jpg?semt=ais_hybrid"
+    },
+    
+    // {
+    //   title: "Resume Building and Interview Preparation",
+    //   subtitle: "Stand Out with a Winning Resume and Confidence",
+    //   description: "Equipping candidates with skills to create impressive resumes and prepare effectively for interviews.",
+    //   icon: "bi bi-file-earmark-text",
+    //   image: "https://img.freepik.com/free-photo/resume-job-interview-preparation_23-2149124334.jpg"
+    // },
+    // {
+    //   title: "Soft Skills and Personality Development",
+    //   subtitle: "Refine Your Communication and Leadership Skills",
+    //   description: "Training individuals in communication, leadership, and interpersonal skills to enhance workplace performance.",
+    //   icon: "bi bi-person-badge",
+    //   image: "https://img.freepik.com/free-photo/soft-skills-personality-training-session_23-2149215376.jpg"
+    // },
+    // {
+    //   title: "Corporate Training Programs",
+    //   subtitle: "Upskill Teams for Greater Organizational Success",
+    //   description: "Providing specialized corporate training programs to empower employees with industry-relevant knowledge and skills.",
+    //   icon: "bi bi-building",
+    //   image: "https://img.freepik.com/free-photo/corporate-training-classroom-workshop_23-2149437685.jpg"
+    // },
+    // {
+    //   title: "Industry Readiness Workshops",
+    //   subtitle: "Prepare for Real-World Challenges with Practical Training",
+    //   description: "Conducting workshops that bridge the gap between academic knowledge and industry requirements.",
+    //   icon: "bi bi-gear",
+    //   image: "https://img.freepik.com/free-photo/industry-readiness-workshop-seminar_23-2149438957.jpg"
+    // }
+  ];
+  
       
   return (
-    <section className="services-section p-3 p-md-5 container-fluid bg-light" id='services'>
-        <h1 className="fs-3 fw-bold text-center my-5">Our Services</h1>
-        <div className="row">
+    <section className="services-section p-3 p-md-5 container-fluid bg-light mt-4" id='services'>
+        <h1 className="fs-1 fw-bold text-center">Our Services</h1>
+        {/* <h1 className="fs-1 fw-bold text-center">Empower your business <br />
+        with our services.</h1> */}
+        <div className="row mt-5 justify-content-center">
             {
                 servicesData.map((item,index)=>(
                     <div className="col-md-4 mb-4">

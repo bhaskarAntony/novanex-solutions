@@ -1,70 +1,61 @@
 import React, { useRef, useState } from 'react';
 import './style.css';
 
-const testimonials = [
-    {
-        icon: 'bi bi-cloud', // Cloud computing icon
-        title: ' Innovative IT Services Tailored to Your Needs',
-        content: 'At Apexion Global Solutions, we offer a wide range of IT services designed to address your business challenges. From application development to cloud computing, our solutions are tailored to help you achieve efficiency, scalability, and growth.',
-        image:"https://img.freepik.com/free-photo/gamer-creator-explaning-african-worker-how-testing-game-level-interface-developing-new-design-creative-office-pointing-screen_482257-5506.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-graph-up', // Data analytics icon
-        title: 'Driving Success Through Digital Transformation',
-        content: 'Embrace the future of technology with our digital transformation services. We empower businesses to modernize operations, enhance customer experiences, and unlock new revenue streams through innovative digital strategies.',
-        image:"https://img.freepik.com/free-photo/urban-traffic-with-cityscape_1359-1019.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-shield-lock', // Cybersecurity icon
-        title: ' Expertise in AI, Machine Learning, and Analytics',
-        content: 'Leverage the power of artificial intelligence, machine learning, and data analytics to gain actionable insights, automate processes, and make data-driven decisions that set you apart from the competition.',
-        image:"https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169851.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-people', // Team collaboration icon
-        title: 'Comprehensive Cybersecurity for Peace of Mind',
-        content: 'Protect your business from digital threats with our cybersecurity solutions. From risk assessment to data protection, we ensure your digital assets remain secure and your operations uninterrupted.',
-        image:"https://img.freepik.com/free-photo/person-with-futuristic-metaverse-avatar-mask_23-2149699834.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-lightbulb', // Innovation icon
-        title: 'Cloud Computing Solutions for Every Business',
-        content: 'Our cloud computing services provide scalable and reliable solutions on platforms like AWS, Azure, and Google Cloud. Migrate your workloads seamlessly and optimize your IT infrastructure for the future.',
-        image:"https://img.freepik.com/free-photo/businesswoman-with-white-cloud_1098-896.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-basket', // E-commerce icon
-        title: 'E-commerce Development',
-        content: 'Building powerful online platforms for retail success.',
-        image:"https://img.freepik.com/free-photo/close-up-hand-holding-card_23-2149241415.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-telephone', // Customer support icon
-        title: '24/7 Support',
-        content: 'Providing round-the-clock support to ensure client satisfaction.',
-        image:"https://img.freepik.com/free-photo/man-working-call-center-with-headphones-computer_23-2149256093.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-card-checklist', // Project management icon
-        title: 'Project Management',
-        content: 'Ensuring successful project delivery with expert management techniques.',
-        image:"https://img.freepik.com/free-photo/workaholics-businesspeople-brainstorming-financial-company-ideas_482257-10539.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-cpu', // IT solutions icon
-        title: 'IT Solutions',
-        content: 'Delivering robust IT solutions tailored to your business needs.',
-        image:"https://img.freepik.com/free-photo/happy-engineers-checking-signs-imminent-failure-data-center_482257-94725.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    },
-    {
-        icon: 'bi bi-geo-alt', // Location-based services icon
-        title: 'Location-Based Services',
-        content: 'Utilizing location data to enhance customer experiences.',
-        image:"https://img.freepik.com/free-photo/diverse-people-preparing-online-orders-putting-fashionable-clothes-carton-boxes-clothing-store-boutique-employees-working-packages-delivery-discussing-shipping-detalis_482257-69797.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
-    }
-];
+
+
+
 
 function TestimonialSlider() {
+    const testimonial = [
+        {
+            icon: 'bi bi-person-badge', // Career counseling icon
+            title: 'Career Counseling',
+            content: 'Providing personalized guidance to help individuals identify their strengths, set career goals, and choose the right educational or professional path.',
+            image: 'https://img.freepik.com/free-photo/team-working-together-project_23-2149273735.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-briefcase', // Placement counseling icon
+            title: 'Placement Counseling',
+            content: 'Helping students and job seekers prepare for successful placements with resume building, interview training, and job matching services.',
+            image: 'https://img.freepik.com/free-photo/conversation-designers_1098-15277.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-laptop', // Software training icon
+            title: 'Software Training',
+            content: 'Offering hands-on training programs in the latest software technologies to empower individuals with in-demand technical skills.',
+            image: 'https://img.freepik.com/free-photo/executive-communication-together-modern-workplace_1170-1850.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-people', // Human resource consulting icon
+            title: 'Human Resource Consulting',
+            content: 'Providing expert HR consulting services to streamline recruitment processes, enhance employee engagement, and optimize workforce strategies.',
+            image: 'https://img.freepik.com/free-photo/close-up-colleagues-working-together_23-2149300687.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-lightbulb', // Innovation icon
+            title: 'Leadership Development Programs',
+            content: 'Helping individuals and teams develop strong leadership skills through tailored workshops and mentoring programs.',
+            image: 'https://img.freepik.com/free-photo/business-success-concept-with-chessboard-side-view-man-placing-figure-pyramid-blocks_176474-9274.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-graph-up-arrow', // Professional growth icon
+            title: 'Professional Growth Workshops',
+            content: 'Conducting interactive workshops to boost communication skills, teamwork, and problem-solving abilities.',
+            image: 'https://img.freepik.com/free-photo/close-up-people-working-office_329181-16053.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-calendar-event', // Training icon
+            title: 'Customized Corporate Training',
+            content: 'Designing and delivering training programs to meet the specific needs of organizations and their employees.',
+            image: 'https://img.freepik.com/free-photo/focused-man-leader-explaining-management-project-using-monitor-working-company-meeting-office-roo_482257-2924.jpg?semt=ais_hybrid', // Add your image URL here
+        },
+        {
+            icon: 'bi bi-chat-square-dots', // Consultation icon
+            title: 'One-on-One Consultations',
+            content: 'Providing personalized consultations to address specific career, training, or HR-related concerns.',
+            image: 'https://img.freepik.com/free-photo/young-person-intership_23-2149315582.jpg?semt=ais_hybrid', // Add your image URL here
+        }
+    ];
     const [currentVideo, setCurrentVideo] = useState(null);
     const containerRef = useRef(null);
 
@@ -88,15 +79,16 @@ function TestimonialSlider() {
         <section className='mt-5' id='stories'>
             <div className="d-flex flex-column align-items-center justify-content-center w-100 text-center">
               
-               <div className="p-3 pmd-5">
-               <h1 className="fs-3 fw-bold text-main ">Elevate Your Business with<span className="text-dark"> Apexion Global Solutions</span> </h1>
-               {/* <p className="fs-6">Innovative Technology Solutions</p> */}
-               </div>
+            
               
             </div>
             <div className="testimonial-slider py-5 mt-5">
+            <div className="text-center">
+               <h1 className="fs-1 fw-bold text-main ">Elevate Your Business <br /> with<span className="text-white text-center"> Novanex  Solutions</span> </h1>
+               {/* <p className="fs-6">Innovative Technology Solutions</p> */}
+               </div>
                 <div className="testimonial-container" ref={containerRef}>
-                    {testimonials.map((testimonial, index) => (
+                    {testimonial.map((testimonial, index) => (
                         <div className="testimonial-card mt-5 d-flex flex-column justify-content-between" style={{background:`url(${testimonial.image})`}} key={index}>
                             <div className="content p-3 ">
                             <div className="icon bg-white">

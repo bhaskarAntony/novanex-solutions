@@ -1,0 +1,21 @@
+.why-card{
+    background-color: #F1F0E8;
+}
+.hightlight{
+
+}
+.first-why-card{
+    background-color: var(--primary-color);
+}
+.why-card i{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 100px;
+}
+.why-card .h-icon{
+    border: 2px solid var(--primary-color);
+}

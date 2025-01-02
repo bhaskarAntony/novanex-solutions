@@ -1,0 +1,20 @@
+.about-img2{
+   position: absolute;
+    width: 30% !important;
+    bottom: -30%;
+    left: 40%;
+}
+.left{
+    position: relative;
+}
+
+@media(max-width:768px){
+    .about-img2{
+        transform: translateX(100px) translateY(-100px);
+        /* display: none; */
+        width: 100% !important;
+    }
+    .about-img1{
+        width: 100% !important;
+    }
+}

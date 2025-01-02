@@ -16,6 +16,12 @@ import DevOps from './pages/services/DevOps'
 import QualityAssurance from './pages/services/QualityAssurance'
 import About from './pages/about/About'
 import Contact from './component/contact/Contact'
+import Career from './pages/services/Career'
+import Placement from './pages/services/Placement'
+import Hr from './pages/services/Hr'
+import NonITtoIT from './pages/services/NonITtoIT'
+import ContactPage from './component/contact/Contact'
+import AboutPage from './pages/about/About'
 
 
 function App() {
@@ -25,19 +31,14 @@ function App() {
     <Header/>
    <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/services/digital-transformation' element={<Digital/>}/>
-    <Route path='/services/application-development' element={<Application/>}/>
-    <Route path='/services/enterprise-software-solutions' element={<Software/>}/>
-    <Route path='/services/data-analytics-bi' element={<Analytics/>}/>
-    <Route path='/services/artificial-intelligence-machine-learning' element={<Artificial/>}/>
-
-    <Route path='/services/cybersecurity' element={<Cybersecurity/>}/>
-    <Route path='/services/cloud-computing' element={<CloudComputing/>}/>
-    {/* <Route path='/services/it-consulting' element={<ITConsulting/>}/> */}
-    <Route path='/services/devops ' element={<DevOps/>}/>
-    <Route path='/services/quality-assurance-testing' element={<QualityAssurance/>}/>
-    <Route path='/aboutus' element={<About/>}/>
-    <Route path='/contact-us' element={<Contact/>}/>
+    <Route path='/services/software-training' element={<Software/>}/>
+    <Route path='/services/career-councelling' element={<Career/>}/>
+    <Route path='/services/placement-councelling' element={<Placement/>}/>
+    <Route path='/services/HR' element={<Hr/>}/>
+    <Route path='/services/transform' element={<NonITtoIT/>}/>
+   
+    <Route path='/aboutus' element={<AboutPage/>}/>
+    <Route path='/contact-us' element={<ContactPage/>}/>
    </Routes>
    <Footer/>
     </BrowserRouter>

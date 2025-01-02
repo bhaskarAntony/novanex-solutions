@@ -3,55 +3,56 @@ import Hero from './Hero'
 import Desc from './Desc'
 import Solutions from './Solutions'
 import Your from './Your'
+import Contact from '../../component/contactSection/Contact'
 
 function Software() {
-    const data =
-    {
-        title: "Enterprise Software Solutions",
-        icon: "bi bi-building",
-        image:'https://img.freepik.com/premium-photo/automation-software-technology-process-system-business-concept_628331-749.jpg?w=1060',
-        description: "Scalable and reliable software solutions designed to optimize enterprise operations and productivity.",
-        heroTitle: "Enhance Enterprise Efficiency with Robust Software",
-        d2:'Our enterprise software solutions are designed to optimize operations, enhance productivity, and provide seamless integration across your business. Apexion Global Solutions delivers solutions that are efficient, reliable, and scalable to meet your evolving needs.',
-        content: [
-          {
-            title: "ERP Systems",
-            icon: "bi bi-clipboard-data",
-            description: "Implement enterprise resource planning systems to manage resources effectively."
-          },
-          {
-            title: "CRM Solutions",
-            icon: "bi bi-people",
-            description: "Manage customer relationships with tailored CRM software solutions."
-          },
-          {
-            title: "Supply Chain Management",
-            icon: "bi bi-truck",
-            description: "Optimize supply chain operations for better efficiency and reduced costs."
-          },
-          {
-            title: "Data Management",
-            icon: "bi bi-folder-fill",
-            description: "Organize and manage data securely for enhanced insights and decision-making."
-          },
-          {
-            title: "HR Management Software",
-            icon: "bi bi-person-badge-fill",
-            description: "Automate HR tasks to streamline employee management and payroll processing."
-          },
-          {
-            title: "Business Process Automation",
-            icon: "bi bi-robot",
-            description: "Automate routine tasks to improve productivity and accuracy."
-          }
-        ]
-      }
+  const data = {
+    title: "Software Training Services",
+    icon: "bi bi-laptop",
+    image: 'https://img.freepik.com/free-photo/website-hosting-concept-with-bright-light_23-2149406783.jpg?semt=ais_hybrid',
+    description: "Comprehensive software training programs designed to empower individuals with the latest technical skills.",
+    heroTitle: "Master Cutting-Edge Technologies with Expert Training",
+    d2: 'At Novanex Solutions, our software training services equip professionals and students with in-demand technical skills. We provide hands-on training in the latest tools and technologies to prepare you for the competitive IT landscape.',
+    content: [
+        {
+            title: "Programming Languages",
+            icon: "bi bi-code-slash",
+            description: "Learn popular programming languages like Python, Java, JavaScript, and more with practical, project-based sessions."
+        },
+        {
+            title: "Web Development",
+            icon: "bi bi-window-desktop",
+            description: "Gain expertise in front-end and back-end web development using frameworks like React, Angular, and Node.js."
+        },
+        {
+            title: "Data Science & Analytics",
+            icon: "bi bi-graph-up",
+            description: "Master data analysis, visualization, and machine learning techniques to unlock career opportunities in data-driven industries."
+        },
+        {
+            title: "Cloud Computing",
+            icon: "bi bi-cloud",
+            description: "Build proficiency in cloud platforms like AWS, Azure, and Google Cloud for scalable and secure solutions."
+        },
+        {
+            title: "Cybersecurity",
+            icon: "bi bi-shield-lock",
+            description: "Learn how to secure digital assets with training in cybersecurity best practices and tools."
+        },
+        {
+            title: "DevOps & Agile",
+            icon: "bi bi-tools",
+            description: "Understand the principles of DevOps and Agile to streamline development and operations processes."
+        }
+    ]
+};
   return (
     <section className="services-page">
     <Hero data={data}/>
     <Desc data={data}/>
     <Solutions data={data}/>
     <Your/>
+    <Contact/>
 
 </section>
   )

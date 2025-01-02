@@ -8,26 +8,31 @@ import Number from '../../component/numbers/Number'
 import Program from '../../component/program/Program'
 import TestimonialSlider from '../../component/testimonials/TestimonialSlider'
 import { Helmet } from 'react-helmet'
+import Contact from '../../component/contactSection/Contact'
 
 function Home() {
   return (
   <section className="home">
     <Helmet>
     <link rel="canonical" href="https://www.apexionglobalsolutions.com/" />
-        <title>Apexion Global Solutions: Driving Digital Transformation with Advanced IT Services</title>
-        <meta name="description" content="Apexion Global Solutions specializes in digital transformation, AI, cloud computing, application development, enterprise solutions, and IT consulting. Elevate your business with innovative, secure, and scalable technology solutions tailored to your needs." />
-        <meta name="keywords" content="digital transformation, IT solutions, AI services, cloud computing, enterprise software, application development, IT consulting, cybersecurity, DevOps, quality assurance, apexion bangalore, apexion global, apexion global solutions bangalore, apexion software, apexion company, apexion solutions, apexion it services" />
-        <meta name="author" content="Apexion Global Solutions" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Apexion Global Solutions: Driving Digital Transformation with Advanced IT Services" />
-        <meta property="og:description" content="Transform your business with cutting-edge IT solutions from Apexion Global Solutions. We offer expertise in AI, cloud computing, application development, and more." />
-        <meta property="og:url" content="https://www.apexionglobalsolutions.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.apexionglobalsolutions.com/images/homepage-banner.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Apexion Global Solutions: Transforming Businesses with IT Services" />
-        <meta name="twitter:description" content="Explore cutting-edge IT services, including digital transformation, AI, cloud solutions, and enterprise software with Apexion Global Solutions." />
-        <meta name="twitter:image" content="https://www.apexionglobalsolutions.com/images/twitter-image-home.jpg" />
+    <title>Novanex Solutions: Comprehensive Business Consulting and IT Services</title>
+
+<meta name="description" content="Novanex Solutions specializes in business consulting, IT services, digital marketing, web development, corporate training, project management, and strategic planning to foster business growth." />
+<meta name="keywords" content="business consulting, IT services, digital marketing, web development, corporate training, project management, strategic planning, cloud solutions, cybersecurity" />
+<meta name="author" content="Novanex Solutions" />
+<meta name="robots" content="index, follow" />
+
+<meta property="og:title" content="Novanex Solutions: Comprehensive Business Consulting and IT Services" />
+<meta property="og:description" content="Empowering businesses with tailored solutions in consulting, IT services, digital marketing, web development, and more." />
+<meta property="og:url" content="https://www.novanexsolutions.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.novanexsolutions.com/images/og-image.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Novanex Solutions: Comprehensive Business Consulting and IT Services" />
+<meta name="twitter:description" content="Discover our expertise in consulting, IT services, digital marketing, web development, and more to accelerate your business." />
+<meta name="twitter:image" content="https://www.novanexsolutions.com/images/twitter-image.jpg" />
+
       </Helmet>
     <Hero/>
     <About/>
@@ -35,12 +40,13 @@ function Home() {
     <Why/>
     <section className="p-3 p-md-5 text-center  transform text-light">
         <h1 className="fs-1 fw-bold">Contact Us for a Free Consultation</h1>
-        <p className="fs-5 mt-2">"Ready to transform your business? Get in touch with Apexion Global Solutions to discuss your IT needs and discover how we can help you achieve your goals."</p>
+        <p className="fs-5 mt-2">"Ready to transform your business? Get in touch with Novanex Solutions to discuss your IT needs and discover how we can help you achieve your goals."</p>
         <button className="main-btn mt-3">Get Started Today  <i class="bi bi-arrow-right"></i></button>
     </section>
     {/* <Number/> */}
         <Program/>
         <TestimonialSlider/>
+      <Contact/>
   </section>
   )
 }
