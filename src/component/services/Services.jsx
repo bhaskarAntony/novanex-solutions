@@ -26,7 +26,7 @@ function Services() {
       image: "https://img.freepik.com/premium-photo/diverse-group-women-men-joining-alcoholic-anonymous-meeting-young-people-with-mental-health-problems-attending-group-counseling_662251-1050.jpg?semt=ais_hybrid"
     },
     {
-      title: "Not IT to IT Placement Support",
+      title: "Non IT to IT Placement Support",
       subtitle: "Transition Seamlessly into the IT Industry",
       description: "Guiding professionals from non-IT backgrounds to secure rewarding roles in the IT industry with targeted support and training.",
       icon: "bi bi-arrow-right-square",

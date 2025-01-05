@@ -7,11 +7,11 @@ function Contact() {
             title:'Email',
             description:'novanexsolutions@gmail.com'
         },
-        {
-            icon:'bi bi-telephone',
-            title:'Call',
-            description:'+91960672320'
-        },
+        // {
+        //     icon:'bi bi-telephone',
+        //     title:'Call',
+        //     description:'+91960672320'
+        // },
         {
             icon:'bi bi-geo-alt',
             title:'Address',
@@ -19,7 +19,7 @@ function Contact() {
         }
     ]
   return (
-    <section className="container-fluid p-3 p-md-5">
+    <section className="container-fluid p-3 p-md-5 ">
         <p className="fs-5 text-center text-main mt-3" data-aos="fade-up">Contact us</p>
         <h1 className="fs-1 fw-bold text-center mb-5" data-aos="fade-up">Your Growth Starts Here <br /> Get in Touch Today</h1>
         <div className="row">
