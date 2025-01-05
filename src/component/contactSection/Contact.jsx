@@ -5,7 +5,7 @@ function Contact() {
         {
             icon:'bi bi-envelope',
             title:'Email',
-            description:'novanexsolutions@gmail.com'
+            description:'novanexsolutions34@gmail.com'
         },
         // {
         //     icon:'bi bi-telephone',
