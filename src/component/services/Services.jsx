@@ -73,7 +73,7 @@ function Services() {
       
   return (
     <section className="services-section p-3 p-md-5 container-fluid bg-light mt-4" id='services'>
-        <h1 className="fs-1 fw-bold text-center" data-aos="fade-up">Our Services</h1>
+        <h1 className="fs-1 fw-bold text-center" data-aos="fade-up">Our <span className="text-main">Services</span></h1>
         {/* <h1 className="fs-1 fw-bold text-center">Empower your business <br />
         with our services.</h1> */}
         <div className="row mt-5 justify-content-center">

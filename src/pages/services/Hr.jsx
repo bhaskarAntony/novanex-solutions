@@ -1,9 +1,10 @@
-import React from 'react'
-import Hero from './Hero'
-import Desc from './Desc'
-import Solutions from './Solutions'
-import Your from './Your'
-import Contact from '../../component/contactSection/Contact'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Hero from './Hero';
+import Desc from './Desc';
+import Solutions from './Solutions';
+import Your from './Your';
+import Contact from '../../component/contactSection/Contact';
 
 function Hr() {
     const data = {
@@ -46,17 +47,99 @@ function Hr() {
             }
         ]
     };
-    
-  return (
-    <section className="services-page">
-    <Hero data={data}/>
-    <Desc data={data}/>
-    <Solutions data={data}/>
-    <Your/>
-    <Contact/>
 
-</section>
-  )
+    return (
+        <section className="services-page">
+
+            {/* Helmet for SEO Meta Tags */}
+            <Helmet>
+                <title>HR Consulting Services | Workforce Management & Talent Solutions | Novanex Solutions</title>
+                <meta name="description" content="Optimize your workforce with Novanex Solutions' HR consulting services. Get expert guidance on recruitment, employee engagement, performance management, and HR policies." />
+                <meta name="robots" content="index, follow" />
+                <meta name="keywords" content="HR consulting, human resource services, talent acquisition, employee engagement, HR policy development, workforce planning, performance management, training and development, Novanex Solutions" />
+                <link rel="canonical" href="https://www.novanexsolutions.co.in/services/HR" />
+
+                {/* Open Graph for Social Media */}
+                <meta property="og:title" content="HR Consulting Services | Workforce Management & Talent Solutions | Novanex Solutions" />
+                <meta property="og:description" content="Enhance your workforce with strategic HR consulting services. Get expert guidance on hiring, policies, training, and workforce planning." />
+                <meta property="og:image" content="https://www.novanexsolutions.co.in/assets/hr-consulting.jpg" />
+                <meta property="og:url" content="https://www.novanexsolutions.co.in/services/HR" />
+                <meta property="og:type" content="website" />
+
+                {/* Twitter Meta Tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="HR Consulting Services | Workforce Management & Talent Solutions | Novanex Solutions" />
+                <meta name="twitter:description" content="Expert HR consulting services to enhance workforce efficiency, recruitment, employee engagement, and performance management." />
+                <meta name="twitter:image" content="https://www.novanexsolutions.co.in/assets/hr-consulting.jpg" />
+
+                {/* Structured Data - JSON-LD */}
+                <script type="application/ld+json">{`
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Novanex Solutions",
+                    "url": "https://www.novanexsolutions.co.in/services/HR",
+                    "logo": "https://www.novanexsolutions.co.in/logo.png",
+                    "description": "Novanex Solutions provides expert HR consulting services including recruitment, workforce planning, employee engagement, and policy development.",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "123 Tech Park, Electronic City",
+                      "addressLocality": "Bangalore",
+                      "addressRegion": "Karnataka",
+                      "postalCode": "560100",
+                      "addressCountry": "IN"
+                    },
+                    "contactPoint": {
+                      "@type": "ContactPoint",
+                      "telephone": "+91 9876543210",
+                      "contactType": "customer service"
+                    }
+                  }
+                `}</script>
+            </Helmet>
+
+            {/* Page Content with SEO-Optimized Headings */}
+            <Hero data={data} />
+            <Desc data={data} />
+            <Solutions data={data} />
+
+            <section className="hr-details">
+                <h2>Why Choose Our HR Consulting Services?</h2>
+                <p>We provide customized HR solutions to optimize workforce efficiency, improve employee engagement, and enhance talent acquisition strategies.</p>
+
+                <h3>Key Benefits of Our HR Services</h3>
+                <ul>
+                    <li>✔️ Strategic workforce planning for long-term success</li>
+                    <li>✔️ Efficient recruitment and talent acquisition solutions</li>
+                    <li>✔️ Employee engagement strategies to boost morale and retention</li>
+                    <li>✔️ HR policy development to ensure compliance and efficiency</li>
+                    <li>✔️ Performance management frameworks for improved productivity</li>
+                    <li>✔️ Training & development programs to upskill employees</li>
+                </ul>
+
+                <h3>Our Comprehensive HR Solutions</h3>
+                <p>Our structured HR services cater to businesses of all sizes, helping them build a strong and efficient workforce.</p>
+
+                <h4>📌 Talent Acquisition & Recruitment</h4>
+                <p>Identify and hire the best talent to meet your business needs effectively.</p>
+
+                <h4>📌 Employee Training & Skill Development</h4>
+                <p>Enhance employee competencies with targeted training and development programs.</p>
+
+                <h4>📌 Performance & Workforce Management</h4>
+                <p>Implement strategies to improve employee productivity and organizational growth.</p>
+
+                <h4>📌 HR Policy & Compliance Management</h4>
+                <p>Develop and implement HR policies that align with industry standards and legal compliance.</p>
+
+                <h4>📌 Employee Engagement & Retention</h4>
+                <p>Boost workplace satisfaction with effective engagement initiatives and feedback mechanisms.</p>
+            </section>
+
+            <Your />
+            <Contact />
+        </section>
+    );
 }
 
 export default Hr;

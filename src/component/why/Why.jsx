@@ -30,7 +30,7 @@ function Why() {
       ];
       
   return (
-   <section className="container-fluid p-3 p-md-5">
+   <section className="container-fluid p-3 p-md-5 bg-light">
         <div className="row">
             <div className="col-md-5 mb-3">
                 <p className="fs-4 text-main" data-aos="fade-up">Why Choose Us</p>

@@ -1,26 +1,79 @@
-# robots.txt file for https://www.apexionglobalsolutions.com/
+# ===========================================
+# Novanex Solutions - Robots.txt
+# Optimized for SEO & Crawling Efficiency
+# ===========================================
 
-# Allow all search engines to crawl the website
 User-agent: *
-Disallow:
+# Allow search engines to index the site
+Allow: /
 
-# Disallow crawling of sensitive directories
+# Block sensitive directories (prevent indexing of backend files)
 Disallow: /admin/
-Disallow: /login/
-Disallow: /register/
+Disallow: /backend/
+Disallow: /server/
 Disallow: /api/
-Disallow: /scripts/
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /private/
+Disallow: /config/
+Disallow: /tmp/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /user-data/
+Disallow: /search?q=*
 
-# Sitemap location
-Sitemap: https://www.apexionglobalsolutions.com/sitemap.xml
+# Prevent indexing of duplicate or irrelevant content
+Disallow: /tags/
+Disallow: /author/
+Disallow: /comments/
+Disallow: /trackback/
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /*?session=
+Disallow: /*.php$
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.cgi$
+Disallow: /*.asp$
+Disallow: /*.exe$
 
-# Additional rules for specific bots
+# Allow Googlebot to crawl JavaScript, CSS, and images
+Allow: /*.js
+Allow: /*.css
+Allow: /images/
+
+# Sitemap locations (Ensure faster indexing)
+Sitemap: https://www.novanexsolutions.com/sitemap.xml
+Sitemap: https://www.novanexsolutions.com/blog-sitemap.xml
+
+# Prevent spam bots from indexing unnecessary areas
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+# Allow Googlebot (Main Crawler) Full Access
 User-agent: Googlebot
 Allow: /
 
+# Allow Bing, Yahoo, and DuckDuckGo Crawlers
 User-agent: Bingbot
 Allow: /
 
-# Crawl delay for non-Google or non-Bing bots
-User-agent: *
-Crawl-delay: 10
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ===========================================
+# End of Robots.txt
+# ===========================================

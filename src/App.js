@@ -30,7 +30,7 @@ function App() {
     Aos.init();//initilization
   }, [])
   return (
-   <Fragment>
+   <div style={{overflowX:'hidden'}}>
     <BrowserRouter>
     <Header/>
    <Routes>
@@ -46,7 +46,7 @@ function App() {
    </Routes>
    <Footer/>
     </BrowserRouter>
-   </Fragment>
+   </div>
   )
 }
 

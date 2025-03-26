@@ -9,6 +9,7 @@ import Program from '../../component/program/Program'
 import TestimonialSlider from '../../component/testimonials/TestimonialSlider'
 import { Helmet } from 'react-helmet'
 import Contact from '../../component/contactSection/Contact'
+import Companies from '../../component/companies/Companies'
 
 function Home() {
   return (
@@ -37,6 +38,7 @@ function Home() {
     <Hero/>
     <About/>
     <Services/>
+    <Companies/>
     <Why/>
     <section className="p-3 p-md-5 text-center  transform text-light">
         <h1 className="fs-1 fw-bold" data-aos="fade-up">Contact Us for a Free Consultation</h1>

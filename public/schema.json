@@ -1,0 +1,141 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Novanex Solutions",
+    "url": "https://www.novanexsolutions.com/",
+    "logo": "https://www.novanexsolutions.com/images/logo.png",
+    "description": "Novanex Solutions provides expert IT consulting, software development, cybersecurity, AI solutions, cloud computing, and digital marketing to help businesses grow.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Business Street",
+      "addressLocality": "Bangalore",
+      "addressRegion": "Karnataka",
+      "postalCode": "560001",
+      "addressCountry": "IN"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-9876543210",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-9876543211",
+        "contactType": "technical support",
+        "areaServed": "IN",
+        "availableLanguage": ["English"]
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/novanexsolutions",
+      "https://twitter.com/novanexsolutions",
+      "https://www.linkedin.com/company/novanexsolutions",
+      "https://www.instagram.com/novanexsolutions"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "John Doe",
+      "jobTitle": "Founder & CEO",
+      "sameAs": "https://www.linkedin.com/in/johndoe"
+    },
+    "foundingDate": "2015-06-15",
+    "numberOfEmployees": "50-100",
+    "serviceArea": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "offers": {
+      "@type": "OfferCatalog",
+      "name": "Our Services",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "name": "IT Consulting",
+          "description": "Expert IT strategy and solutions for businesses."
+        },
+        {
+          "@type": "Service",
+          "name": "Cloud Computing",
+          "description": "Secure cloud solutions to scale your business."
+        },
+        {
+          "@type": "Service",
+          "name": "Cybersecurity",
+          "description": "Advanced security measures to protect your data."
+        },
+        {
+          "@type": "Service",
+          "name": "AI & Machine Learning",
+          "description": "Cutting-edge AI solutions to automate your processes."
+        },
+        {
+          "@type": "Service",
+          "name": "Digital Marketing",
+          "description": "SEO, social media, and performance marketing services."
+        },
+        {
+          "@type": "Service",
+          "name": "Software Development",
+          "description": "Custom web and mobile applications tailored for your needs."
+        }
+      ]
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Amit Sharma"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Novanex Solutions provided outstanding IT consulting and transformed our business operations."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Priya R"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.8",
+          "bestRating": "5"
+        },
+        "reviewBody": "Great experience working with the team. Their cloud solutions are top-notch!"
+      }
+    ],
+    "blogPosts": {
+      "@type": "ItemList",
+      "name": "Latest Blog Posts",
+      "itemListElement": [
+        {
+          "@type": "BlogPosting",
+          "headline": "How AI is Changing Business Operations",
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "datePublished": "2024-02-15",
+          "url": "https://www.novanexsolutions.com/blog/ai-in-business"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Top Cybersecurity Trends in 2024",
+          "author": {
+            "@type": "Person",
+            "name": "Rahul Verma"
+          },
+          "datePublished": "2024-03-01",
+          "url": "https://www.novanexsolutions.com/blog/cybersecurity-trends"
+        }
+      ]
+    }
+  }
+  
