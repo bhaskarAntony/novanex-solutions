@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css'
-import logo from '../../images/novanex_main_logo.jpg'
+import logo from '../../images/novanex_main_logo.png'
 
 function Header() {
   return (

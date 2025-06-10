@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../images/novanex_main_logo.jpg'
+import logo from '../../images/novanex_main_logo.png'
 import './style.css'
 
 function Footer() {
